@@ -1,16 +1,18 @@
 {
     "name": "weasty/resource-bundle",
-    "license": "MIT",
     "type": "symfony-bundle",
     "description": "Weasty Resource Bundle",
-    "autoload": {
-        "psr-4": { "Weasty\\Bundle\\ResourceBundle\\": "" }
-    },
+    "license": "MIT",
+    "authors": [
+        {"name": "ja1cap", "email": "ja1cap@me.com"}
+    ],
     "require": {
         "php": ">=5.3.3",
         "weasty/resource": "dev-master",
         "symfony/framework-bundle": "~2.2",
         "twig/extensions": "~1.0"
     },
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": { "Weasty\\Bundle\\ResourceBundle\\": "" }
+    }
 }
