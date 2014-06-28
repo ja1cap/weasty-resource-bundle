@@ -13,6 +13,6 @@
         "twig/extensions": "~1.0"
     },
     "autoload": {
-        "psr-4": { "Weasty\\Bundle\\ResourceBundle\\": "" }
+        "psr-4": { "Weasty\\Bundle\\ResourceBundle\\": "src/Weasty/Bundle/ResourceBundle" }
     }
 }
