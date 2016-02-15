@@ -8,7 +8,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "weasty/resource": "dev-master",
+        "weasty/resource": ">=v1.0",
         "symfony/framework-bundle": "~2.2",
         "twig/extensions": "~1.0"
     },
